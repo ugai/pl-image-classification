@@ -1,0 +1,12 @@
+--extra-index-url https://download.pytorch.org/whl/cu117
+torch
+torchvision
+torchaudio
+
+matplotlib
+Pillow
+pytorch-lightning
+rich
+scikit-learn
+torchmetrics
+typer[all]

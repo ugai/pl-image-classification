@@ -1,0 +1,6 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.prospectorEnabled": true,
+    "python.formatting.provider": "black",
+    "python.terminal.activateEnvInCurrentTerminal": true
+}
