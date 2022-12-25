@@ -35,7 +35,7 @@ cd pl-image-classification
 Run the training process.
 
 ```sh
-python tutorial.py train <DATASET_ROOT_DIR> --num-classes <NUM_OF_CLASSES>
+python pl_image_classification.py train <DATASET_ROOT_DIR>
 ```
 
 ## Inference
@@ -50,5 +50,5 @@ cd pl-image-classification
 Run the inference process.
 
 ```sh
-python tutorial.py infer <CKPT_FILE> <IMAGE_DIR> --num-classes <NUM_OF_CLASSES>
+python pl_image_classification.py infer <CKPT_FILE> <IMAGE_DIR> --num-classes <NUM_OF_CLASSES>
 ```
